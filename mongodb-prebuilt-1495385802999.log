@@ -1,0 +1,32 @@
+2017-05-21T16:56:44.582+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1535 port=27018 dbpath=/usr/src/app/node_modules/mockgoose/.mongooseTempDB/27018 64-bit host=ab4ae849c9f6
+2017-05-21T16:56:44.584+0000 I CONTROL  [initandlisten] db version v3.2.10
+2017-05-21T16:56:44.585+0000 I CONTROL  [initandlisten] git version: 79d9b3ab5ce20f51c272b4411202710a082d0317
+2017-05-21T16:56:44.585+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t  3 May 2016
+2017-05-21T16:56:44.586+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-05-21T16:56:44.587+0000 I CONTROL  [initandlisten] modules: none
+2017-05-21T16:56:44.587+0000 I CONTROL  [initandlisten] build environment:
+2017-05-21T16:56:44.588+0000 I CONTROL  [initandlisten]     distmod: debian71
+2017-05-21T16:56:44.588+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2017-05-21T16:56:44.588+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-05-21T16:56:44.589+0000 I CONTROL  [initandlisten] options: { net: { bindIp: "127.0.0.1", port: 27018 }, processManagement: { fork: true }, storage: { dbPath: "/usr/src/app/node_modules/mockgoose/.mongooseTempDB/27018", engine: "ephemeralForTest" }, systemLog: { destination: "file", path: "/usr/src/app/mongodb-prebuilt-1495385802999.log" } }
+2017-05-21T16:56:44.633+0000 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2017-05-21T16:56:44.634+0000 I CONTROL  [initandlisten] 
+2017-05-21T16:56:44.634+0000 I CONTROL  [initandlisten] 
+2017-05-21T16:56:44.635+0000 I CONTROL  [initandlisten] ** NOTE: The ephemeralForTest storage engine is for testing only. 
+2017-05-21T16:56:44.636+0000 I CONTROL  [initandlisten] **       Do not use in production.
+2017-05-21T16:56:44.636+0000 I CONTROL  [initandlisten] 
+2017-05-21T16:56:44.649+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/usr/src/app/node_modules/mockgoose/.mongooseTempDB/27018/diagnostic.data'
+2017-05-21T16:56:44.657+0000 I NETWORK  [initandlisten] waiting for connections on port 27018
+2017-05-21T16:56:44.657+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-05-21T16:56:44.735+0000 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:60970 #1 (1 connection now open)
+2017-05-21T16:56:45.290+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2017-05-21T16:56:45.291+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2017-05-21T16:56:45.318+0000 I CONTROL  [signalProcessingThread] now exiting
+2017-05-21T16:56:45.320+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2017-05-21T16:56:45.322+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2017-05-21T16:56:45.324+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2017-05-21T16:56:45.325+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27018.sock
+2017-05-21T16:56:45.327+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2017-05-21T16:56:45.329+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2017-05-21T16:56:45.332+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2017-05-21T16:56:45.338+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
