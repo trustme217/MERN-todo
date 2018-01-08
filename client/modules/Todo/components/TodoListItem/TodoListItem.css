@@ -1,0 +1,10 @@
+.done_true {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.li_style {
+  list-style-type: decimal-leading-zero;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
